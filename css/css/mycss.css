@@ -1,0 +1,92 @@
+
+.topcontainer {
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+	 border: 2px solid black;
+  width: 60%;
+  height: 1500;
+
+  background-color: lightgray;
+  
+}
+.midcontainer {
+
+
+	 border: 3px solid black;
+	 height:27%;
+  width: 99.5%;
+
+  background-color: black;
+
+}
+.float-child {
+	height:100%;
+    width: 50%;
+    float: right;
+
+} 
+
+p.a {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	color:white;
+	margin: 30% 15% 15% 15%;
+	font-size: 40px;
+}
+
+#side-content {
+    height: 1500;
+    width: 40%;
+
+    float: right;
+    
+    position: relative;
+   
+}
+
+#side-content1 {
+    height: 1500;
+    width: 55%;
+
+    float: left;
+    
+    position: relative;
+   
+}
+
+
+.info {
+    font-size: 20px;
+    font-family: 'Dosis' , sans-serif;
+    position: relative;
+    margin: 0 0 2em 0;
+    text-align: center;
+
+}
+.th, .info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 0.2em;
+}
+
+
+h1 {
+  text-align: center;
+   font-family: 'Dosis' , sans-serif;
+}
+p.b{
+   font-size: 20px;
+    text-align: justify;
+  font-family: 'Dosis' , sans-serif;
+  margin-left: 40px;
+}
+.bingo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90; height:60;
+}

@@ -1,0 +1,73 @@
+body {
+	background-color: blue;
+}
+
+div {
+	background-color: lightblue;
+}
+p {
+	background-color: gray;
+}
+h2 {
+	text-decoration: line-through;
+}
+h3 {
+	text-decoration: underline;
+}
+h4 {
+	text-decoration: overline;
+}
+
+p.test1 {
+  text-transform:capitalize;
+  font-size: 15px;
+  color: white;
+}
+p.test2 {
+  text-transform:uppercase;
+  font-size: 20px;
+  color: white;
+}
+p.test3 {
+  text-transform:lowercase;
+  font-size: 10px;
+  color: white;
+}
+a:visited {
+  color: pink;
+}
+a:link {
+  color: red;
+}
+a:hover {
+  color: hotpink;
+}
+table.test4 {
+  border-collapse: collapse;
+  background-color: lightblue;
+}
+table, td, th {
+  border: 2px solid black;
+}
+
+table.test5 {
+	border: 2px solid green;
+	background-color: lightblue;
+}
+
+th.a {
+ background-color:green;
+ color:white;
+}
+td.b {
+	border: 2px solid green;
+}
+p.test4 {
+  border: 2px solid red;
+  outline-style: dotted;
+  outline-color: white;
+  outline-width: 7px;
+}
+p.test5 {
+  border: 5px solid black;
+}

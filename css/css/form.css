@@ -1,0 +1,45 @@
+.bg {
+	background-image: url("img/formbg.png");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} 
+
+.first {
+	width: 50%;
+	float: right;
+	background-color: #A9A9A9;
+
+
+}
+.hh1 {
+	font-family: 'Dosis' , sans-serif;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+}
+table {
+	border-width: thick;
+	border-color: black;
+	border-style: double;
+	margin-left:auto;
+	margin-right:auto;
+}
+td {
+	font-family: 'Dosis' , sans-serif;
+
+	font-size: 20px;
+	padding: 10px 15px 15px 20px;
+}
+input, select {
+	font-family: 'Dosis' , sans-serif;
+	border:1px solid black;
+
+	font-size: 13px;
+	padding: 10px 10px 10px 20px;
+}
+
+.button {
+	color :white;
+	background-color: black;
+}

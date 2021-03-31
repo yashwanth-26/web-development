@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Form</title>
+<link rel="stylesheet" href="css/form.css">
+
+
+</head>
+<body class="bg">
+	<div class="first">
+		<h1 class="hh1">Form</h1>
+		<form action="/springmvcq5/mani2/${bingo}/${id}" method="post"
+			id="form1">
+			<table class="center">
+				<tr>
+					<td>First Name :</td>
+
+					<td><input type="text" placeholder="Enter First Name"
+						name="ename" required></td>
+
+				</tr>
+
+				<tr>
+					<td>Last Name :</td>
+
+					<td><input type="text" placeholder="Enter Last Name"
+						name="ename" required></td>
+
+				</tr>
+
+				<tr>
+					<td>Gender :</td>
+
+					<td><select name="gender" required>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+					</select></td>
+
+				</tr>
+				<tr>
+					<td>Date Of Birth :</td>
+					<td><input type="date" name="date" placeholder="dd-mm-yyyy"
+						required></td>
+				</tr>
+				<tr>
+					<td>Age :</td>
+					<td><input type="number" name="age" placeholder="Age" min="18"
+						required></td>
+
+				</tr>
+				<tr>
+					<td>Email :</td>
+
+					<td><input type="email" name="email" placeholder="Email"
+						required></td>
+
+				</tr>
+				<tr>
+					<td>Aadhar :</td>
+					<td><input type="tel" name="phone"
+						placeholder="0000-0000-0000" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+						required></td>
+
+				</tr>
+				<tr>
+					<td>Mobile No :</td>
+					<td><input type="tel" name="phone" placeholder="0123456789"
+						pattern="[0-9]{10}" required></td>
+
+				</tr>
+				<tr>
+					<td>City :</td>
+
+					<td><input type="text" placeholder="Enter City Name"
+						name="city" required></td>
+
+				</tr>
+				<tr>
+					<td>State :</td>
+
+					<td><input type="text" placeholder="Enter State Name"
+						name="state" required></td>
+
+				</tr>
+				<tr>
+					<td>Country :</td>
+
+					<td><input type="text" placeholder="Enter Country Name"
+						name="country" required></td>
+
+				</tr>
+				<tr>
+					<td>Pin code :</td>
+					<td><input type="number" name="pin" placeholder="Pin code"
+						required></td>
+
+				</tr>
+
+				<tr>
+					<td>Prefered language :</td>
+
+					<td><input type="checkbox" name="language" value="english">
+						<label for="language"> English</label><br> <input
+						type="checkbox" name="language" value="french"> <label
+						for="language"> French</label><br></td>
+
+				</tr>
+				<tr>
+					<td>Prefered Theme :</td>
+
+					<td><label> <input name="Theme" value="dark"
+							type="radio" class="input-radio" checked />Dark
+					</label> <label> <input name="Theme" value="light" type="radio"
+							class="input-radio" />Light
+					</label></td>
+
+				</tr>
+				<tr>
+					<td>User id :</td>
+
+					<td><input type="text" placeholder="Enter Employee Name"
+						name="ename" required></td>
+
+				</tr>
+				<tr>
+					<td>Password :</td>
+
+					<td><input type="Password" placeholder="Enter Employee Name"
+						name="ename" required></td>
+
+				</tr>
+				<tr>
+					<td>Security Question :</td>
+
+					<td><input type="text" placeholder="Security Question"
+						name="ename"></td>
+
+				</tr>
+				<tr>
+					<td>Answer :</td>
+
+					<td><input type="text" placeholder="Enter Answer" name="ename"></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="submit" form="form1" value="Submit"
+							class="button">Submit</button></td>
+				</tr>
+
+
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
